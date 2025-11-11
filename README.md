@@ -163,14 +163,26 @@ vllm serve UBC-NLP/NileChat-3B --tensor-parallel-size 1 --data-parallel-size 1
 ## Citation
 Please cite this paper if you use our data or models.
 ```bibtex
-@misc{mekki2025nilechatlinguisticallydiverseculturally,
-      title={NileChat: Towards Linguistically Diverse and Culturally Aware LLMs for Local Communities}, 
-      author={Abdellah El Mekki and Houdaifa Atou and Omer Nacar and Shady Shehata and Muhammad Abdul-Mageed},
-      year={2025},
-      eprint={2505.18383},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2505.18383}, 
+@inproceedings{el-mekki-etal-2025-nilechat,
+    title = "{N}ile{C}hat: Towards Linguistically Diverse and Culturally Aware {LLM}s for Local Communities",
+    author = "El Mekki, Abdellah  and
+      Atou, Houdaifa  and
+      Nacar, Omer  and
+      Shehata, Shady  and
+      Abdul-Mageed, Muhammad",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.556/",
+    doi = "10.18653/v1/2025.emnlp-main.556",
+    pages = "10978--11002",
+    ISBN = "979-8-89176-332-6"
 }
 ```
 
